@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import jordan from "../assets/jordi.jpeg"; // 🔥 ini doang tambahan
 
 export default function ProfileNama3() {
   return (
@@ -15,7 +16,7 @@ export default function ProfileNama3() {
         {/* FOTO */}
         <div className="relative w-36 h-36 mx-auto mb-4">
           <img
-            src="https://i.imgur.com/D9D4i82.jpeg"
+            src={jordan} // 🔥 FIX DI SINI
             alt="Jordan"
             className="w-full h-full rounded-full object-cover border-4 border-blue-400 shadow-[0_0_20px_rgba(59,130,246,0.8)]"
           />
@@ -44,7 +45,7 @@ export default function ProfileNama3() {
           seorang developer yang mampu menciptakan teknologi yang bermanfaat bagi banyak orang.
         </p>
 
-        {/* BUTTON (CUMA 1) */}
+        {/* BUTTON */}
         <div className="mt-6">
           <Link
             to="/"

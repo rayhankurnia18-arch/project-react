@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import pandu from "../assets/pandu.jpeg"; // 🔥 ini doang tambahan
 
 export default function ProfileNama2() {
   return (
@@ -15,8 +16,8 @@ export default function ProfileNama2() {
         {/* FOTO */}
         <div className="relative w-36 h-36 mx-auto mb-4">
           <img
-            src="https://i.imgur.com/80JSHPX.jpeg"
-            alt="Pandu"
+            src={pandu} // 🔥 FIX DISINI
+            alt="pandu"
             className="w-full h-full rounded-full object-cover border-4 border-blue-400 shadow-[0_0_20px_rgba(59,130,246,0.8)]"
           />
           <div className="absolute inset-0 rounded-full border-2 border-purple-400 animate-pulse"></div>
@@ -24,7 +25,7 @@ export default function ProfileNama2() {
 
         {/* NAMA */}
         <h1 className="text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-          Pandu Aji Setiawan
+          Nama 2
         </h1>
 
         {/* INFO */}
@@ -46,7 +47,6 @@ export default function ProfileNama2() {
         {/* NAVIGATION */}
         <div className="flex justify-between mt-6">
 
-          {/* BACK */}
           <Link
             to="/nama1"
             className="px-5 py-2 bg-gray-700 rounded-lg hover:scale-105 transition"
@@ -54,7 +54,6 @@ export default function ProfileNama2() {
             ← Kembali
           </Link>
 
-          {/* NEXT */}
           <Link
             to="/nama3"
             className="px-5 py-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg hover:scale-105 transition"
