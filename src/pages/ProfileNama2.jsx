@@ -25,7 +25,7 @@ export default function ProfileNama2() {
 
         {/* NAMA */}
         <h1 className="text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-          Nama 2
+          Pandu Aji Setiawan
         </h1>
 
         {/* INFO */}
