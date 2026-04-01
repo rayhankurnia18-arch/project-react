@@ -37,12 +37,7 @@ export default function ProfileNama3() {
 
         {/* DESKRIPSI */}
         <p className="mt-4 text-gray-400 text-sm leading-relaxed">
-          Saya adalah seorang mahasiswa yang sedang menempuh pendidikan di jurusan Teknologi Informasi.
-          Saya memiliki minat besar terhadap dunia teknologi, khususnya dalam bidang pemrograman dan
-          pengembangan aplikasi. Selama kuliah, saya aktif mempelajari berbagai materi seperti coding,
-          jaringan, dan basis data, serta sering mengikuti kegiatan seperti workshop dan komunitas IT
-          untuk menambah pengalaman. Dengan semangat belajar yang tinggi, saya bercita-cita menjadi
-          seorang developer yang mampu menciptakan teknologi yang bermanfaat bagi banyak orang.
+          Halo, nama saya Ilham Jordan. Saat ini saya adalah mahasiswa di Universitas Brawijaya yang sedang mendalami dunia pengembangan perangkat lunak, khususnya pada bagian front-end web development. Saya memiliki ketertarikan yang besar dalam membangun antarmuka pengguna yang interaktif, responsif, dan estetis menggunakan teknologi modern seperti ReactJS dan Tailwind CSS. Melalui tugas project implementation ini, saya belajar banyak tentang bagaimana cara berkolaborasi secara efektif dalam tim menggunakan GitHub, mulai dari pengelolaan branch hingga sinkronisasi kode antar anggota. Saya percaya bahwa kombinasi antara logika pemrograman yang kuat dan desain yang baik dapat menciptakan solusi digital yang bermanfaat bagi banyak orang. Di luar perkuliahan, saya juga sering mengeksplorasi tren teknologi terbaru dan mendengarkan musik untuk menjaga kreativitas tetap mengalir. Dengan domisili saya saat ini, saya berharap dapat terus berkontribusi dalam berbagai proyek pengembangan aplikasi yang menantang ke depannya.
         </p>
 
         {/* BUTTON */}
