@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import jordan from "../assets/jordi.jpeg"; // 🔥 ini doang tambahan
 
-export default function ProfileNama3() {
+export default function Jordan() {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center relative overflow-hidden">
 

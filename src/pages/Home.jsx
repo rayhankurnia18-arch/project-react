@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className="mt-8 flex justify-center">
           <Link
-            to="/nama1"
+            to="/rayhan"
             className="px-10 py-3 rounded-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:scale-110 hover:shadow-[0_0_25px_rgba(168,85,247,0.9)] transition duration-300 font-semibold text-lg"
           >
             Masuk

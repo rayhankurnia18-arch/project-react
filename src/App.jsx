@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import ProfileNama1 from "./pages/ProfileNama1";
-import ProfileNama2 from "./pages/ProfileNama2";
-import ProfileNama3 from "./pages/ProfileNama3";
+import Rayhan from "./pages/Rayhan";
+import Pandu from "./pages/Pandu";
+import Jordan from "./pages/Jordan";
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/nama1" element={<ProfileNama1 />} />
-        <Route path="/nama2" element={<ProfileNama2 />} />
-        <Route path="/nama3" element={<ProfileNama3 />} />
+        <Route path="/rayhan" element={<Rayhan />} />
+        <Route path="/pandu" element={<Pandu />} />
+        <Route path="/jordan" element={<Jordan />} />
       </Routes>
     </BrowserRouter>
   );

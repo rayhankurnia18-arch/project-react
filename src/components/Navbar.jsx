@@ -21,36 +21,36 @@ export default function Navbar() {
         </Link>
 
         <Link
-          to="/nama1"
+          to="/Rayhan"
           className={`transition duration-300 ${
-            location.pathname === "/nama1"
+            location.pathname === "/Rayhan"
               ? "text-purple-400 scale-110"
               : "hover:text-purple-400"
           }`}
         >
-          Profil 1
+          Rayhan
         </Link>
 
         <Link
-          to="/nama2"
+          to="/Pandu"
           className={`transition duration-300 ${
-            location.pathname === "/nama2"
+            location.pathname === "/Pandu"
               ? "text-purple-400 scale-110"
               : "hover:text-purple-400"
           }`}
         >
-          Profil 2
+          Pandu
         </Link>
 
         <Link
-          to="/nama3"
+          to="/Jordan"
           className={`transition duration-300 ${
-            location.pathname === "/nama3"
+            location.pathname === "/Jordan"
               ? "text-pink-400 scale-110"
               : "hover:text-pink-400"
           }`}
         >
-          Profil 3
+          Jordan
         </Link>
 
       </div>
