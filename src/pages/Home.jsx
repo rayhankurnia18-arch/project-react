@@ -27,6 +27,7 @@ export default function Home() {
           >
             Masuk
           </Link>
+          <Link to="/jordan">Profil Jordan</Link>
         </div>
 
       </div>
